@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.about-us-preview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6ebda;
+  padding: 5px 220px 0px 220px;
+  margin-top: 120px;
+  position: relative;
+}
+.about-us-preview::before {
+  content: "";
+  background-image: url("../assets/Images/Images/bg-aboutus.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.1;
+}
+.about-us-preview img {
+  height: 400px;
+  position: relative;
+  top: -70px;
+  border: solid 4px white;
+  border-radius: 12px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+.about-us-preview .about-content {
+  width: 500px;
+  display: grid;
+  gap: 1rem;
+  padding-left: 150px;
+}
+.about-us-preview .about-content p {
+  color: gray;
+}
+.about-us-preview .about-content span {
+  border-bottom: 4px solid #ff902a;
+}
+.about-us-preview button {
+  width: 9rem;
+  background-color: #231908;
+  border: none;
+  color: #d29520;
+  border-radius: 1rem;
+  padding: 8px 16px;
+}
+
+.special-menu {
+  padding: 100px;
+}
+.special-menu h1 span {
+  border-bottom: 4px solid #ff902a;
+}
+.special-menu .card-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.special-menu .card-container .card {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 20px;
+}
+.special-menu .card-container .card img {
+  border-radius: 20px;
+  height: 230px;
+  width: 300px;
+}
+.special-menu .card-container .card .menu-title {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.special-menu .card-container .card .description-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.special-menu .card-container .card .description-product p {
+  color: gray;
+}
+.special-menu .card-container .card .description-product i {
+  background-color: orange;
+  padding: 10px 13px;
+  color: white;
+  border-radius: 100%;
+}
+.special-menu .card-container .card .rate {
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 40px;
+  height: 20px;
+  background-color: white !important;
+  color: black;
+  font-size: 10px;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.431372549);
+  position: absolute;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  padding-top: 3px;
+}
+.special-menu .card-container .card .rate .fa {
+  color: orange;
+}/*# sourceMappingURL=main.css.map */
